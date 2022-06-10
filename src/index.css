@@ -107,5 +107,23 @@ img{
     width: 100%;
     object-fit: cover;
 }
-
-
+/* -------------------- MEDIA QUERIES(medium devices)-------------------- */
+@media screen and (max-width:1024px){
+    .container{
+        width: var(--container-widht-md);
+    
+    }
+    section {
+        margin-top: 6rem;
+    }
+}
+/* -------------------- MEDIA QUERIES(small devices)-------------------- */
+@media screen and (max-width:612px){
+    .container{
+        width: var(--container-widht-sd);
+    
+    }
+    section {
+        margin-top: 2rem;
+    }
+}
