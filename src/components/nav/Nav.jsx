@@ -9,14 +9,14 @@ import { useState } from 'react';
 
 
 const Nav = () => {
-  const [activView, setActivView] = useState('');
+  const [activView, setActivView] = useState('#');
   return (
     <nav>
       <a href="#home" onClick={()=> setActivView("#home")} className={activView === '#home' ? 'active' :''}><AiOutlineHome/></a>
       <a href="#about" onClick={()=> setActivView("#about")} className={activView === '#about' ? 'active' :''}><AiOutlineUser/></a>
       <a href="#experience"  onClick={()=> setActivView("#experience")} className={activView === '#experience' ? 'active' :''}><BsJournalBookmarkFill/></a>
       <a href="#services"  onClick={()=> setActivView("#services")} className={activView === '#services' ? 'active' :''}><RiServiceLine/></a>
-      <a href="#contact" onClick={()=> setActivView("#contact")} className={activView === '#contact' ? 'active' :''}><BiMessageSquareDetail/></a>
+      <a href="#toSend"  onClick={()=> setActivView("#toSend")} className={activView === '#toSend' ? 'active' :''}><BiMessageSquareDetail/></a>
 
     </nav>
   )

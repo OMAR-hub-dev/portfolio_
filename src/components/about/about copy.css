@@ -3,68 +3,34 @@
     grid-template-columns: 35% 50%;
     gap: 15%;
 }
- 
+
 .about__me{
-   display: grid;
     width: 100%;
     
     aspect-ratio: 1/1;
-    
     border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, var(--color-primarycolor), transparent);
-    overflow: hidden;
+    background:linear-gradient(
+        45deg,
+        transparent,
+        var(--color-primary),
+        transparent
+    ) ;
+    display: grid;
     place-items: center;
-
 }
-/*
-.about__me::before{
-    content: '';
-    position: absolute;
-    inset: -10px 200px;
-    background: linear-gradient(315deg, #00ccff, #d400d4);
-    transition: 0.5s;
-    animation: animate 4s linear infinite;
-}
-.about__me:hover::before{
-    inset: -20px 0px;
-}
-@keyframes animate{
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
-}
- .about__me::after{
-    content: '';
-    position: absolute;
-    inset: 6px;
-     background: #162052; 
-    border-radius: 50%;
-    z-index: 1;
- } */
 
 .about__me-image{
-  border-radius: 2rem;
-  overflow: hidden ;
-  transform: rotate(10deg);
+    border-radius: 2rem;
+    overflow: hidden;
+   
+   
+    transform: rotate(10deg);
+    transition: var(--transition);
 }
 
-/* .about__me-image img{
-    position: relative;
-    
-    object-fit: cover;
-    transition: 0.5s;
-    pointer-events: none;
-    overflow: hidden;
-    border-radius: 50%;
-
-} */
-
-/* .about__me-image:hover{
+.about__me-image:hover{
     transform: rotate(0);
-} */
+}
 
 .about__cards{
     display: grid;
