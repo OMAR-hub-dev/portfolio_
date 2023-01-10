@@ -8,7 +8,7 @@ const Service = () => {
       <h5>What I Offer</h5>
       <h2>Services</h2>
 
-      <div className="conatiner services__container">
+      <div className="container services__container">
         <article className="services">
           <div className="service__head">
             <h3>UI/UX Design</h3>

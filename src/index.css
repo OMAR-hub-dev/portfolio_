@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Ubuntu:wght@300&display=swap'); 
 *{
     margin: 0;
     padding: 0;
@@ -23,6 +25,12 @@
     --container-width-lg:75%;
     --container-width-md:86%;
     --container-width-sm:90%;
+    --box-shadow: 0 4px 3px 0 rgba(44, 17, 165, 0.3);
+    --border: 1px solid var(--color-primary-variant);
+    --font-weight-semi-bold: 600;
+    --font-weight-bold: 700;
+    --font-size-regular: 0.9rem;
+    --font-size-small: 0.7rem;
 
 }
 
@@ -49,12 +57,15 @@ background-image: url(../src/assets/bg-texture.png);
  h1,h2, h3,h4, h5{
     font-weight: 500;
  }
+ ul{
+    list-style: none;
+ }
 
  h1{
     font-size: 2.5rem;
  }
  section {
-    margin-top:8rem;
+    margin-top:5.5rem;
     /* height: 110vh; */
  }
 
@@ -75,6 +86,7 @@ background-image: url(../src/assets/bg-texture.png);
  a{
     color: var(--color-primary);
     transition: var(--transition);
+   
  }
 
  a:hover{
@@ -120,7 +132,7 @@ img{
     }
 }
 /* -------------------- MEDIA QUERIES(small devices)-------------------- */
-@media screen and (max-width:612px){
+@media screen and (max-width:712px){
     .container{
         width: var(--container-width-sd);
     
@@ -128,4 +140,5 @@ img{
     section {
         margin-top: 2rem;
     }
+   
 }

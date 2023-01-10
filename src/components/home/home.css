@@ -1,0 +1,110 @@
+.home__content{
+   display: flex;
+   padding-top: 2rem;
+   align-items: center;
+   justify-content: space-between;
+   gap:2rem;
+
+}
+.home__img{
+    background-image: url(../../assets/profil.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: var(--box-shadow);
+    order: 1;
+    justify-self: center;
+    width: 330px;
+    height: 400px;
+    animation: profile__animate 8s ease-in-out infinite 1s;
+}
+
+.home__title{
+    font-size: 2.2rem;
+    /* margin-bottom: 1.5rem; */
+}
+.home__hand{
+    color:#F2A950;
+    height: 38px;
+    width: 38px;
+    margin-left: 0.5rem;
+}
+.home__subtitle{
+    position: relative;
+    font-size:0.9rem;
+    font-weight: 400;
+}
+.home__subtitle::before{
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: var(--color-primary);
+    left: -5rem;
+    top:0.5rem;
+
+}
+.home__description{
+    max-width: 400px;
+    margin-bottom: 3rem;
+}
+
+
+/* ==============SOCIAL============= */
+.header_socials{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    gap: 0.7rem;
+    /* position: absolute; */
+    left: 0;
+    bottom: 3rem;
+}
+
+.header_socials::after{
+    content: "";
+    width: 1px;
+    height: 1.75rem;
+    background: var(--color-primary);
+}
+
+
+
+/* ==============CTA============= */
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    justify-content: center;
+    align-items: center;
+}
+/* ================SCROLL-DOWN============= */
+/* .scroll_down{
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+} */
+
+
+@keyframes profile__animate {
+    0%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+
+/* -------------------- MEDIA QUERIES(small devices)-------------------- */
+@media screen and (max-width:850px){
+    .header_socials{
+        display: none;
+    }
+}

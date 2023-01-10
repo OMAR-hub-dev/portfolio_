@@ -21,7 +21,11 @@ nav a {
     display: flex;
     color: var(--color-light);
     font-size: 1.1rem;
+    
   
+}
+nav a li {
+    margin-right: 0.4rem;
 }
 
 nav a:hover {

@@ -1,6 +1,6 @@
 import React from 'react'
-import './about.css';
-import ME from "../../assets/me.png";
+import './about-copy.css';
+import ME from "../../assets/student.jpg";
 import {FaAward} from 'react-icons/fa';
 import {FiUsers} from 'react-icons/fi';
 import {ImFolderOpen} from 'react-icons/im';
@@ -37,7 +37,9 @@ const About = () => {
               <small>3+ Lorem ipsum dolor sit amet consectetur.</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum illo voluptate nulla ex. Voluptate nesciunt commodi dolores aperiam tempora magni alias aliquid itaque numquam facere quae eaque, et, illo architecto quo beatae omnis illum aut consequatur.</p>
+          <p>Motivé et persévèrent, je m'adapte à toutes les situations.  <br />
+            Soucieux du détail et un bon esprit d'équipe , je sais prendre l'initiative quand il faut. Organisé, je sais prendre en compte les priorités et travailler en autonomie. <br />
+            J'aime apprendre de nouvelle choses. </p>
 
           <a href="#contact" id="contact" className='btn btn-primary'> Let's talk</a>
         </div>
