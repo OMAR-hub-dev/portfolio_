@@ -1,8 +1,9 @@
 import React from 'react'
-import './home.css'
+import './home.css';
+import './img.css';
 import HeaderSocial from './HeaderSocial';
 import CTA from './CTA';
-import ME from '../../assets/profil.jpg';
+// import  '../../assets/js/index.js';
 
 
 
@@ -13,11 +14,15 @@ const Home = () => {
         <div className="home__container container grid">
             <div className="home__content grid">
                 <HeaderSocial/>
-                <div className="home__img"></div>
+                
+                  <div class="image" data-repetition data-repetition-count="10" data-repetition-scale-interval="0.06" ></div>
+                
                 <CTA/>
-                {/* <a href="#contact" className="scroll_down">Scroll Down</a> */}
+                 {/* <a href="#contact" className="scroll_down">Scroll Down</a>  */}
             </div>
         </div>
+		  
+        
     </section>
   )
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import './about-copy.css';
-import ME from "../../assets/student.jpg";
+import ME from "../../assets/1.jpg";
 import {FaAward} from 'react-icons/fa';
 import {FiUsers} from 'react-icons/fi';
 import {ImFolderOpen} from 'react-icons/im';
@@ -8,8 +8,8 @@ import {ImFolderOpen} from 'react-icons/im';
 const About = () => {
   return (
     <section id="about">
-      <h5>Get to Knom</h5>
-      <h2>About Me</h2>
+      <h5>Entrer en contact</h5>
+      <h2>Parcours</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -41,7 +41,7 @@ const About = () => {
             Soucieux du détail et un bon esprit d'équipe , je sais prendre l'initiative quand il faut. Organisé, je sais prendre en compte les priorités et travailler en autonomie. <br />
             J'aime apprendre de nouvelle choses. </p>
 
-          <a href="#contact" id="contact" className='btn btn-primary'> Let's talk</a>
+          <a href="#toSend"  className='btn btn-primary'> Let's talk</a>
         </div>
       </div>
     </section>

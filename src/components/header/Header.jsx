@@ -41,10 +41,10 @@ const Header = () => {
               <a href="#home" className='nav__link'><i className='nav__icon'><AiOutlineHome/></i>Home</a>
             </li>
             <li className='nav__item'>
-              <a href="#about" className='nav__link'><i className='nav__icon'><AiOutlineUser/></i>About</a>
+              <a href="#about" className='nav__link'><i className='nav__icon'><AiOutlineUser/></i>Parcours</a>
             </li>
             <li className='nav__item'>
-              <a href="#experience" className='nav__link'><i className='nav__icon'><BsJournalBookmarkFill/></i>Experience</a>
+              <a href="#experience" className='nav__link'><i className='nav__icon'><BsJournalBookmarkFill/></i>Projets</a>
             </li>
             <li className='nav__item'>
               <a href="#services" className='nav__link'><i className='nav__icon'><RiServiceLine/></i>Services</a>
