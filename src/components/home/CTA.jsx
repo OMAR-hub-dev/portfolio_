@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../assets/CV_2024-01-20_Omar_Oulaya.pdf';
+import CV from '../../assets/CV_Omar_OULAYA.pdf';
 
 import LOGO from "../../assets/logo.png";
 

@@ -56,7 +56,8 @@
     justify-content: space-between;
 }
 .home__hand img{
- max-width: 60px;
+ max-width: 70px;
+ margin-bottom: 1rem;
  
 }
 .home__subtitle{
